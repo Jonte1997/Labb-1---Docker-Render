@@ -4,7 +4,7 @@ import './style.css';
 
 function App() {
   const [view, setView] = useState('list');
-  const [title, setTitle] = useState('Workout Tracker');
+  const [title, setTitle] = useState('Workout Logger');
   const [name, setName] = useState('');
   const [selectedId, setSelectedId] = useState(null);
   const [exercise, setExercise] = useState('');
